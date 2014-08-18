@@ -201,7 +201,7 @@ hexdec = (str) ->
 server = Http.createServer (req, resp) ->
   if req.method != 'GET' || req.url == '/'
     resp.writeHead 200, default_security_headers
-    resp.end 'hwhat'
+    resp.end 'hwhatsup'
   else if req.url == '/favicon.ico'
     resp.writeHead 200, default_security_headers
     resp.end 'ok'
