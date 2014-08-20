@@ -243,7 +243,7 @@
     var dest_url, encoded_url, error, hmac, hmac_digest, query_digest, transferredHeaders, url, url_type, user_agent, _base, _ref, _ref1;
     if (req.method !== 'GET' || req.url === '/') {
       resp.writeHead(200, default_security_headers);
-      return resp.end('hwhat');
+      return resp.end('tomayko');
     } else if (req.url === '/favicon.ico') {
       resp.writeHead(200, default_security_headers);
       return resp.end('ok');
